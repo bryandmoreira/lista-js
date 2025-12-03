@@ -1,0 +1,93 @@
+/* Estilo básico para a página */
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start; /* Alinha o conteúdo mais ao topo */
+    padding-top: 50px;
+    margin: 0;
+}
+
+/* Estilo do container principal */
+.container {
+    background-color: #fff;
+    padding: 30px 40px;
+    border-radius: 10px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    text-align: center;
+}
+
+/* Estilo dos títulos */
+h1 {
+    color: #007bff;
+    margin-bottom: 25px;
+}
+
+/* Estilo do input de número */
+input[type="number"] {
+    width: calc(100% - 20px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+    text-align: center;
+}
+
+/* Estilo do botão */
+#calcularBtn {
+    background-color: #28a745;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s;
+    margin-bottom: 30px;
+}
+
+#calcularBtn:hover {
+    background-color: #218838;
+}
+
+/* Estilo da área de resultado */
+#resultado {
+    margin-top: 20px;
+    padding: 15px;
+    border-top: 2px solid #eee;
+    text-align: left;
+}
+
+#resultado h2 {
+    color: #6c757d;
+    font-size: 1.2em;
+    margin-top: 0;
+    text-align: center;
+}
+
+/* Estilo da lista de resultados */
+#resultado ul {
+    list-style: none;
+    padding: 0;
+}
+
+#resultado li {
+    background-color: #e9ecef;
+    padding: 8px 15px;
+    margin-bottom: 5px;
+    border-radius: 3px;
+    font-size: 1.1em;
+    display: flex;
+    justify-content: space-between;
+}
+
+/* Estilo para destacar o resultado final (o número após o =) */
+#resultado li strong {
+    color: #dc3545;
+    font-weight: bold;
+}
